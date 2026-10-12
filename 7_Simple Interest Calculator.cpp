@@ -11,5 +11,5 @@ int main() {
       
       cout << "Simple Interest: " << simple_interest << endl;
       
-      return 0
+      return 0;
 }
