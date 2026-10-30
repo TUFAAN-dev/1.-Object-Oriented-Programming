@@ -44,7 +44,7 @@ int main() {
       s3->setData(103, "Ali", 75);
       s3->display();
       cout << "Grades: " << s3->getGrades() << endl;
-      delete s3; // Free the dynamically allocated memory
+      delete s3;
 
       return 0; 
 }
