@@ -40,6 +40,12 @@ public:
       ~Constructors() {
             cout << "Destructor was called" << endl;
       }
+
+      void display() {
+            cout << "Account ID: " << Acc_ID << endl;
+            cout << "Account Holder: " << Acc_Holder << endl;
+            cout << "Account Balance: " << Acc_Balance << endl;
+      }
 }; 
 
 int main() {
@@ -48,5 +54,10 @@ int main() {
       Constructors obj3(003, "Danish", 1000.0);
       Constructors obj4(004, "Hamza", 3000.0);
       
+      obj1.display();
+      obj2.display();
+      obj3.display();
+      obj4.display();
+
       return 0;
 }
